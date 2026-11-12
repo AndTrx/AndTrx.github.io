@@ -1,0 +1,50 @@
+{
+  "object": "J0124",
+  "width": 333,
+  "height": 333,
+  "crop": {
+    "x0": 133,
+    "y0": 100,
+    "width": 123,
+    "height": 142
+  },
+  "channels": 389,
+  "wavelength0": 5675.873535156,
+  "wavelengthStep": 1.25,
+  "maskChannels": [
+    142,
+    196
+  ],
+  "maskWavelength": [
+    5853.373535156,
+    5920.873535156
+  ],
+  "pixelScaleArcsec": 0.200000000000016,
+  "initialPosition": {
+    "x": 162,
+    "y": 154
+  },
+  "displayLow": -1.4616524267196656,
+  "displayHigh": 359.05132278442375,
+  "wcs": {
+    "CRPIX1": 175.10342,
+    "CRPIX2": 165.49756,
+    "CRVAL1": 21.0157494333,
+    "CRVAL2": 0.7424296702,
+    "CD1_1": -5.555555555556e-05,
+    "CD1_2": 0.0,
+    "CD2_1": 0.0,
+    "CD2_2": 5.555555555556e-05
+  },
+  "fluxUnit": "native units (BUNIT not supplied)",
+  "wavelengthConvention": "AWAV",
+  "sourceFiles": [
+    "J0124_PSFSub_BKGSub_sel862_1250.fits",
+    "J0124_PSFSub_BKGSub_sel862_1250.Objects_Id.fits",
+    "J0124.IM.fits"
+  ],
+  "parts": [
+    "J0124-spectra-0.f32",
+    "J0124-spectra-1.f32"
+  ]
+}
