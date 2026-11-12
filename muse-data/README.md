@@ -1,0 +1,1 @@
+Web data for the interactive MUSE explorer. Spatial cutouts of the supplied PSF/continuum-subtracted cubes; native float32 samples, all supplied spectral channels. Binary parts concatenate in metadata order. Masks are packed little-bit-order. Original FITS files are not included.
