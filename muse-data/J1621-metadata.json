@@ -1,0 +1,50 @@
+{
+  "object": "J1621",
+  "width": 375,
+  "height": 349,
+  "crop": {
+    "x0": 128,
+    "y0": 113,
+    "width": 107,
+    "height": 112
+  },
+  "channels": 619,
+  "wavelength0": 5384.577636719,
+  "wavelengthStep": 1.25,
+  "maskChannels": [
+    245,
+    300
+  ],
+  "maskWavelength": [
+    5690.827636719,
+    5759.577636719
+  ],
+  "pixelScaleArcsec": 0.200000000000016,
+  "initialPosition": {
+    "x": 184,
+    "y": 166
+  },
+  "displayLow": -1.9065654122829436,
+  "displayHigh": 111.53139438629151,
+  "wcs": {
+    "CRPIX1": 185.03,
+    "CRPIX2": 168.99,
+    "CRVAL1": 245.3205116569,
+    "CRVAL2": -0.7141422855,
+    "CD1_1": -5.555555555556e-05,
+    "CD1_2": 0.0,
+    "CD2_1": 0.0,
+    "CD2_2": 5.555555555556e-05
+  },
+  "fluxUnit": "native units (BUNIT not supplied)",
+  "wavelengthConvention": "AWAV",
+  "sourceFiles": [
+    "J1621_PSFSub_BKGSub_sel509_1127.fits",
+    "J1621_PSFSub_BKGSub_sel509_1127.Objects_Id.fits",
+    "J1621.IM.fits"
+  ],
+  "parts": [
+    "J1621-spectra-0.f32",
+    "J1621-spectra-1.f32"
+  ]
+}
