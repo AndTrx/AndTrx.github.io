@@ -6,3 +6,9 @@
 @media print{.header,.footer,.print-button,.skip{display:none!important}body{background:white;color:black}.wrap{width:100%}.cv-page{padding:0}.cv-page h1{font-size:34px}.cv-page h2{font-size:22px;margin-top:23px}.cv-entry{break-inside:avoid}.cv-page a{color:black}.cv-note{border-top:1px solid #ccc;padding-top:12px}@page{margin:18mm}}
 
 .hero-copy,.portrait-area,.research-layout>*,.software-layout>*,.about-layout>*,.contact-layout>*{min-width:0}img{max-width:100%}
+
+
+/* Creative storytelling project */
+.stories{border-top:1px solid var(--line);background:#f0f3ed}.stories-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,300px);gap:90px;align-items:center}.stories-name{font-size:12px;letter-spacing:2px;color:var(--accent);font-weight:600}.stories .section-lead{max-width:590px}.stories-handle{font-size:11px;color:var(--muted);margin:18px 0 0;overflow-wrap:anywhere}.stories-qr{margin:0;background:#fff;padding:20px;border:1px solid var(--line);border-radius:3px}.stories-qr a{display:block}.stories-qr img{display:block;width:100%;height:auto}.stories-qr figcaption{text-align:center;font-size:11px;color:var(--muted);margin-top:16px;line-height:1.7}.contact-links{flex-wrap:wrap}
+@media(max-width:1000px){.stories-layout{gap:45px}}
+@media(max-width:700px){.stories-layout{grid-template-columns:minmax(0,1fr);gap:32px}.stories-qr{width:min(100%,300px);justify-self:center}.stories .button{max-width:100%;gap:15px}}
